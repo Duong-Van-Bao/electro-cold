@@ -1,0 +1,390 @@
+.app {
+    overflow: hidden;
+}
+
+.navbar-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: var(--text-color);
+    background-color: var(--bg-navbar);
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 999;
+}
+
+.navbar-header .navbar-fixed {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.navbar-header .navbar-fixed .btn--info {
+    font-size: 1.8rem;
+    background: #f5efef;
+    margin: 10px 0;
+}
+
+.navbar-header .navbar-fixed .navbar-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: var(--text-color);
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 25%;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-item .navbar-link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-item:hover {
+    background: #af402a;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-item:hover .navbar-link {
+    color: var(--text-hover);
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-multi .nav-list {
+    display: none;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-multi .navbar-icon {
+    margin-left: 20px;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-multi:hover .nav-list {
+    display: block;
+    position: absolute;
+    top: var(--height-navbar);
+    list-style: none;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-multi .nav-list {
+    width: 100%;
+    background: rgb(226 34 34);
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-multi .nav-list .nav-item {
+    padding: 10px 0;
+    position: relative;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-multi .nav-list .nav-item .nav-list {
+    display: none;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-multi .nav-list .nav-item:hover .nav-list {
+    display: block;
+    top: -5px;
+    left: 278px;
+    background: #e43434;
+}
+
+.navbar-header .navbar-fixed .navbar-list .navbar-multi .nav-list .nav-item .nav-link {
+    color: var(--text-hover);
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_container {
+    margin-top: var(--height-navbar);
+}
+
+.app_container .serives {
+    background-image: linear-gradient( 82deg, rgba(6, 147, 227, 0.39) 50%, rgba(171, 184, 195, 0.57));
+}
+
+.app_container .serives .serives-body {
+    padding-bottom: 2.2rem;
+}
+
+.app_container .serives .serives-body .card_serive {
+    min-height: 390px;
+}
+
+.app_container .serives .serives-body .card_serive .card_serive--body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_container .serives .serives-body .serives--color {
+    color: #4453cf;
+    text-align: start;
+}
+
+.app_container .serives .serives-body .serives--header {
+    color: #4453cf;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.app_container .content-info .content-body {
+    text-align: center;
+}
+
+.app_container .content-info {
+    padding-top: 57px;
+}
+
+.app_container .reqair .repair-body .reqair-list {
+    background: #e0e9f1;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    list-style: none;
+}
+
+.app_container .reqair .repair-body .reqair-list .nav-item {
+    line-height: 1.5;
+}
+
+.app_container .reqair .repair-body .reqair-list:first-child {
+    padding-top: 1.2rem;
+}
+
+.app_container .reqair .repair-body .reqair-list:last-child {
+    padding-bottom: 1.2rem;
+}
+
+.app_container .reqair .repair-body .reqair-list .nav-item i {
+    color: #ff6900;
+}
+
+.app_container .reqair .repair-body .reqair-list .nav-item .reqair-text {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.app_container .reqair .repair-body .reqair-title {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.app_container .worry .worry-info .worry-title {
+    margin-bottom: 0px;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.app_container .worry .worry-info .worry-body .worry-list {
+    padding-left: 0px;
+    list-style: none
+}
+
+.app_container .worry .worry-package .worry-body .worry-title {
+    margin-bottom: 0px;
+    padding: 20px 20px 20px 0;
+    font-weight: 400;
+}
+
+.app_container .why .why-header {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.app_container .why {
+    background: #f2f2f2;
+}
+
+.app_container .why .card-why {
+    border: none;
+    background: transparent;
+}
+
+.app_container .why .card-why .card_why-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+}
+
+.app_container .happy {
+    background: linear-gradient(to bottom, #92eef7 50%, #5ea5ac 50%);
+}
+
+.app_container .happy .happy-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_container .happy .happy-info .happy-content {
+    display: flex;
+}
+
+.app_container .happy .happy-info .happy-content .happy-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.app_container .happy .happy-info .happy-content .happy-title {
+    text-align: start;
+    color: #fff;
+    font-weight: 700;
+}
+
+.app_container .happy .happy-info .happy-content .happy-money {
+    font-weight: 300;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.app_container .happy .happy-info .happy-models {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    padding: 3rem;
+    margin-bottom: 40px;
+}
+
+.app_container .happy .happy-info .happy-models .happy-card {
+    text-align: center;
+    max-width: 500px;
+}
+
+.app_container .happy .happy-info .happy-models .happy-card .happy-title {
+    color: #0c4b94;
+}
+
+.app_container .happy .happy-info .happy-models .happy-card div {
+    margin-bottom: 20px;
+}
+
+.app_container .happy .happy-info .happy-models .happy-card h1 {
+    margin-bottom: 20px;
+}
+
+.app_container .happy .happy-info .happy-models .happy-card .btn-happy {
+    padding: 20px;
+    background: #0c4b94;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.app_container .happy .happy-info .happy-models .happy-card:last-child {
+    opacity: .7;
+}
+
+.app_container .recruitment ul {
+    list-style: none;
+}
+
+.app_container .recruitment ul li i {
+    margin-right: 10px;
+}
+
+.footer .footer-info {
+    background: #a19d9d;
+}
+
+.footer .footer-info h1 {
+    font-weight: 400;
+}
+
+.footer .footer-info h3 {
+    font-weight: 300;
+}
+
+.footer .footer-info h1 {
+    text-align: start !important;
+    color: #fff !important;
+}
+
+.footer .footer-info h2 {
+    text-align: start !important;
+    color: #fff !important;
+}
+
+.footer .footer-info h3 {
+    text-align: start !important;
+    color: #fff !important;
+}
+
+.footer .footer-adress {
+    background: #5d5c5c;
+}
+
+.footer .footer-adress .footer-adress-warning h2 {
+    color: var(--text-color) !important;
+    padding-bottom: 5px;
+    text-align: start;
+}
+
+.footer .footer-adress .footer-adress-warning h2 i {
+    margin-right: 10px;
+}
+
+.footer .footer-adress .footer-adress-warning .footer_adress-double {
+    margin-top: 20px;
+}
+
+.footer .footer-adress .footer-adress-warning button {
+    background: linear-gradient( 93deg, #383232, transparent);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-color: var(--text-color);
+}
+
+.footer .footer-adress p {
+    color: #fff;
+}
+
+
+/**back to top*/
+
+.back-to-top {
+    position: fixed;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    right: 15px;
+    bottom: 15px;
+    background: #1bbca3;
+    color: #fff;
+    transition: display 0.5s ease-in-out;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.back-to-top:hover {
+    color: #fff;
+    background: #21dfc2;
+    transition: background 0.2s ease-in-out;
+}
+
+
+/**END*/

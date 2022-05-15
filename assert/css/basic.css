@@ -1,0 +1,38 @@
+:root {
+    --text-color: #ff6600;
+    --text-hover: #fff;
+    --bg-navbar: #c4c4c4;
+    --height-navbar: 57px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding: 20px;
+    color: #ff6900;
+}
+
+.content-top {
+    margin-top: var(--height-navbar);
+}
+
+.content-text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.btn {
+    font-size: 1.6rem;
+}
